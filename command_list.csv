@@ -1,0 +1,29 @@
+    1  get config --global user.name "Natalya Barbalyuk"
+    2  clear
+    3  git config --global user.name "Natalya Barbalyuk"
+    4  git config --global user.email "natalya.barbalyuk@gmail.com"
+    5  git clone https://github.com/NatalyaBarb/HW_10.git
+    6  cd HW_10/
+    7  touch text_ignore.txt
+    8  vim .gitignore
+    9  nano .gitignore
+   10  git status
+   11  git add .gitignore
+   12  git status
+   13  git commit
+   14  touch main_test.txt
+   15  git add main_test.txt 
+   16  git commit
+   17  git branch develop
+   18  git checkout develop 
+   19  touch develop_test.txt
+   20  git add develop_test.txt 
+   21  nano develop_test.txt 
+   22  git status
+   23  git add develop_test.txt 
+   24  git commit
+   25  git checkout main
+   26  git merge develop
+   27  git log
+   28  git history > command_list.csv
+   29  history > command_list.csv
